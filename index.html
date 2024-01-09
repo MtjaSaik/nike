@@ -73,6 +73,7 @@
 	<script>
       var canvas = document.getElementById('myCanvas');
       var context = canvas.getContext('2d');
+      context.scale(0.3, 0.3);
 
       context.beginPath();
       context.moveTo(374.06, 23.88);
@@ -88,8 +89,8 @@
       context.bezierCurveTo(146.00, 77.73, 305.73, 34.45, 305.73, 34.45);
       context.bezierCurveTo(305.73, 34.45, 410.94, 7.25, 410.94, 7.25);
       context.bezierCurveTo(410.94, 7.25, 374.06, 23.88, 374.06, 23.88);
+      context.closePath();
       context.lineWidth = 0.1;
-  
 
       // line color
 	  context.fillstyle='black';
