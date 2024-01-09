@@ -66,10 +66,40 @@
 			 
 </svg>
         </a>
-		<h4 display="inline">NIKE</h4>
 		
-		
-		
+	<div height="100px" width="100px">
+		<canvas id="myCanvas" width="410px" height="200px"></canvas>
+	</div>
+	
+	<script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.moveTo(45.57, 3.00);
+context.bezierCurveTo(45.57, 3.00, 13.46, 17.11, 13.46, 17.11);
+context.bezierCurveTo(13.46, 17.11, 10.05, 18.73, 7.82, 19.20);
+context.bezierCurveTo(4.53, 18.72, 2.84, 16.25, 1.88, 14.61);
+context.bezierCurveTo(0.96, 12.89, 1.29, 10.69, 2.21, 8.56);
+context.bezierCurveTo(3.00, 6.82, 4.51, 4.50, 6.17, 2.62);
+context.bezierCurveTo(7.42, 1.26, 8.55, 0.00, 10.75, 0.00);
+context.bezierCurveTo(9.25, 0.00, 10.44, 1.91, 11.64, 3.35);
+context.bezierCurveTo(11.64, 3.35, 15.90, 10.48, 16.23, 14.55);
+context.bezierCurveTo(16.37, 16.51, 16.23, 18.34, 15.72, 20.01);
+context.bezierCurveTo(15.15, 22.13, 14.00, 24.15, 12.51, 25.53);
+context.bezierCurveTo(13.64, 25.33, 15.97, 24.52, 18.37, 22.60);
+context.bezierCurveTo(21.00, 20.49, 23.80, 15.97, 23.80, 15.97);
+context.bezierCurveTo(23.80, 15.97, 32.43, 3.74, 32.43, 3.74);
+context.bezierCurveTo(32.43, 3.74, 45.57, 3.00, 45.57, 3.00);
+      context.lineWidth = 1;
+
+      // line color
+	  context.fillstyle='black';
+	  context.fill();
+	  
+      context.strokeStyle = 'black';
+      context.stroke();
+	</script>
 		
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -391,31 +421,6 @@
             <h2 class="u-align-center u-text u-text-1">FREE SHIPPING AND 30-DAY SPORTS BRA TRIALS</h2>
             <p class="u-align-center u-text u-text-2">Love it or return it. Sign up for a free NikePlus account at <br>checkout to get free shipping and 30-day returns.&nbsp;<br>
             </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="u-clearfix u-palette-3-base u-section-8" id="sec-8b77">
-      <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-        <div class="u-layout">
-          <div class="u-layout-row">
-            <div class="u-container-style u-image u-layout-cell u-left-cell u-size-31 u-image-1" data-image-width="1293" data-image-height="884">
-              <div class="u-container-layout"></div>
-            </div>
-            <div class="u-container-style u-layout-cell u-right-cell u-size-29 u-layout-cell-2">
-              <div class="u-container-layout u-valign-middle-xs">
-                <div class="u-align-left u-container-style u-group u-group-1">
-                  <div class="u-container-layout u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl">
-                    <img src="images/1cab8bfe0371f5cd2fe344e263903077.png" alt="" class="u-image u-image-contain u-image-default u-image-2" data-image-width="400" data-image-height="144">
-                    <h6 class="u-text u-text-1">new arrivals</h6>
-                    <div class="u-palette-1-base u-shape u-shape-rectangle u-shape-1"></div>
-                    <h2 class="u-text u-text-2">Shine On Collection</h2>
-                    <p class="u-text u-text-3">If they seem impossible right now, you’re doing it right.&nbsp;Heads up: Forward-looking Nike Sportswear has a progressive new collection, Nike Sport Pack. Featuring dynamic graphics, textiles and silhouettes that reference both heritage details and contemporary design, the collection distorts the boundaries of sport to deliver a new language of creative self-expression.</p>
-                    <a href="https://www.nike.com" class="u-link u-text-body-alt-color u-link-1" target="_blank">shop now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
